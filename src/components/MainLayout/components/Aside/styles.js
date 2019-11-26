@@ -18,6 +18,11 @@ export const Logo = styled.img`
 export const List = styled.nav`
   display: block;
   
+  svg {
+    vertical-align: middle;
+    margin-right: .5em;
+  }
+  
   a {
     display: block;
     color: #fff;
