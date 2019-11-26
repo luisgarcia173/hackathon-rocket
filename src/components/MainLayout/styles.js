@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
 
 export const Container = styled.div`
   position: fixed;
-  left: 291px;
+  left: 240px;
   top: 0;
   bottom: 0;
   right: 0;
