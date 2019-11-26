@@ -1,8 +1,8 @@
 import { createGlobalStyle } from "styled-components";
 
 export const colors = {
-  primary: 'red',
-  secondary: 'blue',
+  primary: '#100f14',
+  secondary: '#41356b',
 };
 
 export const padding = {
@@ -14,7 +14,12 @@ export const padding = {
 export const GlobalStyle = createGlobalStyle`
   * {
     margin: 0;
-    padding: 0;  
+    padding: 0; 
+    box-sizing: border-box;
+    
+    &:after,&:before {
+      box-sizing: border-box;
+    }
   }
   
   html {
