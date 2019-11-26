@@ -6,9 +6,11 @@ import {
   Container
 } from "./styles";
 
-export default function Button({
+export default function Badge({
   color = 'primaryLighten',
   padding = 'medium',
+  fontSize = 'small',
+  onClick,
   children,
   ...props
 }) {
@@ -17,6 +19,8 @@ export default function Button({
       <Container
         color={color}
         padding={padding}
+        fontSize={fontSize}
+        onClick={onClick}
         {...props}
       >
         {children}

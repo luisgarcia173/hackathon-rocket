@@ -4,7 +4,12 @@ import { darken, lighten, readableColor } from 'polished';
 // Config
 import { colors, padding } from "config";
 
-export const Wrapper = styled.button`
+export const Wrapper = styled.div`
+  display: flex;
+  padding: ${padding.small}px;
+`;
+
+export const Container = styled.button`
   outline: none;
   cursor: pointer;
   border: 1px solid ${p => colors[p.color]};

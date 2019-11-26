@@ -3,6 +3,7 @@ import MainLayout from 'components/MainLayout'
 
 // Teste
 import Button from 'components/Button';
+import Badge from "../../components/Badge";
 
 function Dashboard() {
   return (
@@ -11,6 +12,12 @@ function Dashboard() {
       <Button>
         Saiba mais
       </Button>
+      <Badge
+        fontSize={"ultra_small"}
+        padding={"small"}
+      >
+        Condicional
+      </Badge>
     </MainLayout>
   )
 }
