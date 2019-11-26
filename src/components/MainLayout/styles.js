@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { padding } from "../../config";
+import { colors, padding } from "../../config";
 
 export const Wrapper = styled.div`
   display: flex;
@@ -12,5 +12,6 @@ export const Container = styled.div`
   bottom: 0;
   right: 0;
   padding: ${padding.large}px;
+  background-color: ${colors.primaryDarken};
 `;
 

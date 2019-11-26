@@ -1,8 +1,10 @@
 import { createGlobalStyle } from "styled-components";
 
 export const colors = {
-  primary: '#100f14',
-  secondary: '#41356b',
+  primaryDarken: '#100f14',
+  primary: '#18171f',
+  primaryLighten: '#41356b',
+  secondary: '#fff',
 };
 
 export const padding = {

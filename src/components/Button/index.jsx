@@ -6,7 +6,7 @@ import {
 } from "./styles";
 
 export default function Button({
-  color = 'primary',
+  color = 'primaryLighten',
   padding = 'medium',
   children,
   ...props

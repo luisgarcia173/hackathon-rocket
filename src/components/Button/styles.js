@@ -10,7 +10,7 @@ export const Wrapper = styled.button`
   border: 1px solid ${p => colors[p.color]};
   background-color: ${p => colors[p.color]};
   padding: ${p => padding[p.padding] / 2}px ${p => padding[p.padding]}px;
-  color: ${p => readableColor(colors[p.color], colors.secondary, colors.primary)};
+  color: ${p => readableColor(colors[p.color], colors.primary, colors.secondary)};
   
   transition: transform .18s, background-color .18s, border .18s;
   will-change: transform, background-color, border;

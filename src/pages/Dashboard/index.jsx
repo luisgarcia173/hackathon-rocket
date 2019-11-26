@@ -8,7 +8,7 @@ function Dashboard() {
   return (
     <MainLayout>
       dashboard
-      <Button color={"secondary"}>
+      <Button>
         Saiba mais
       </Button>
     </MainLayout>
