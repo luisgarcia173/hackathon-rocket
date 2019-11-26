@@ -1,17 +1,14 @@
-import styled, { createGlobalStyle } from 'styled-components'
-
-export const GlobalStyle = createGlobalStyle`
-  * {
-    margin: 0;
-    padding: 0;  
-  }
-  
-  html {
-    font-size: 14px;
-    font-family: Source Sans Pro, sans-serif;  
-  }
-`
+import styled from 'styled-components'
 
 export const Wrapper = styled.div`
   display: flex;
 `;
+
+export const Container = styled.div`
+  position: fixed;
+  left: 300px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+`;
+

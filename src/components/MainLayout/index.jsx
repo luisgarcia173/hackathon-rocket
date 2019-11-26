@@ -1,10 +1,14 @@
 import React from 'react';
-import { Wrapper } from './styles';
+import Aside from './components/Aside';
+import { Wrapper, Container } from './styles';
 
 function MainLayout({ children }) {
   return (
     <Wrapper>
-      {children}
+      <Aside />
+      <Container>
+        {children}
+      </Container>
     </Wrapper>
   )
 }
