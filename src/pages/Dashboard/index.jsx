@@ -1,11 +1,11 @@
 import React from 'react';
-import LayoutDashboard from 'components/LayoutDashboard';
+import MainLayout from 'components/MainLayout'
 
 function Dashboard() {
   return (
-    <LayoutDashboard>
-
-    </LayoutDashboard>
+    <MainLayout>
+      dashboard
+    </MainLayout>
   )
 }
 

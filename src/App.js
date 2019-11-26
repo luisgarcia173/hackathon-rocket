@@ -1,9 +1,15 @@
 import React from 'react';
-import LayoutDashboard from "components/LayoutDashboard";
+import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
+import * as pages from './pages'
 
 function App() {
   return (
-    <LayoutDashboard />
+    <Router>
+      <Switch>
+        <Route to="/dashboard" component={pages.Dashboard} />
+        <Redirect to="/dashboard" />
+      </Switch>
+    </Router>
   );
 }
 
