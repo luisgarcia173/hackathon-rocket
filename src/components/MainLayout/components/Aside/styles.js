@@ -2,7 +2,9 @@ import styled from 'styled-components';
 import { colors } from "config";
 
 export const Wrapper = styled.aside`
-  width: 291px;
+  display: flex;
+  flex-direction: column;
+  width: 240px;
   left: 0;
   top: 0;
   bottom: 0;
@@ -13,7 +15,11 @@ export const Wrapper = styled.aside`
 export const Logo = styled.img`
   width: 90px;
   margin: 25px 15px 15px;
-`
+`;
+
+export const Spacer = styled.div`
+  flex-grow: 1;
+`;
 
 export const List = styled.nav`
   display: block;
@@ -36,4 +42,4 @@ export const List = styled.nav`
       background-color: rgba(0,0,0,.1);
     }
   }
-`
+`;

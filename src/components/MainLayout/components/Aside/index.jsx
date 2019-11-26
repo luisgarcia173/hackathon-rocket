@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { MdDashboard, MdGroup } from 'react-icons/md';
+import { MdDashboard, MdGroup, MdClose } from 'react-icons/md';
 import { FaTrophy } from 'react-icons/fa';
-import { Wrapper, List, Logo } from './styles';
+import { Wrapper, List, Logo, Spacer } from './styles';
 import logo from './logo.png';
 
 function Aside() {
@@ -13,6 +13,10 @@ function Aside() {
         <Link to="/dashboard"><MdDashboard /> Início</Link>
         <Link to="/conquistas"><FaTrophy /> Conquistas</Link>
         <Link to="/vagas"><MdGroup /> Vagas</Link>
+      </List>
+      <Spacer />
+      <List>
+        <a href="#"><MdClose /> Sair</a>
       </List>
     </Wrapper>
   )
